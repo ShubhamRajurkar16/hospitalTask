@@ -6,11 +6,7 @@ import { OverviewComponent } from './overview/overview.component';
 
 const routes: Routes = [
   {path:'',component:BillComponent},
-  {path:'dash',component:DashboardComponent,
-  children:[
-    {path:'bill',component:BillComponent}
-  ]
-},
+  {path:'dash',component:DashboardComponent},
 
 ];
 
